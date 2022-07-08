@@ -25,6 +25,7 @@ body {
     padding-bottom: 10vh;
     display: flex;
     justify-content: center;
+    color: var(--lavender)
 }
 
 #floater > ul {
