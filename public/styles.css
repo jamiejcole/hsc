@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --raisin: #28262c;
+    --bluebell: #998fc7;
+    --lavender: #d4c2fc;
+    --magnolia: #f9f5ff;
+    --blue: #14248a;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--magnolia);
+    background-color: var(--raisin);
+}
+
+#floater {
+    padding-top: 50px;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#floater > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#floater > ul > li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#floater > ul > li > a { 
+    color: inherit;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+}
+
+#timerparent {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid var(--bluebell);
+    border-radius: 28px;
+}
+
+.timer > h1 { font-size: 3.2vw; }
+.timer > p { font-size: 2.5vw; text-decoration: underline; display: block; float: left;}
+
+#calendarWrapper {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+    text-align: center;
+    border: 3px solid var(--bluebell);
+    border-radius: 28px;
+}
+
+#calendar > .item {
+    border: 1px solid var(--magnolia);
+    height: 150px;
+    padding: 8px;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.item-header {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+

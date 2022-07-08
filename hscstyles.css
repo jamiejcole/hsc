@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-image: url(mesh-gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(78, 78, 78);
+}
+
+.cont {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+
+.cont > h1 { font-size: 3.2vw; }
+.cont > p { font-size: 3vw; text-decoration: underline; }
+
+@media only screen and (min-width: 1700px) {
+    .cont > h1 { font-size: 3.2vw; }
+    .cont > p { font-size: 3vw; text-decoration: underline; }
+}
+
+@media only screen and (max-width: 1700px) {
+    .cont > h1 { font-size: 5.2vw; }
+    .cont > p { font-size: 5vw; text-decoration: underline; }
+}
+
+@media only screen and (max-width: 1000px) {
+    .cont > h1 { font-size: 8.2vw; }
+    .cont > p { font-size: 9vw; text-decoration: underline; }
+}
+
+@media only screen and (max-width: 950px) {
+    body {
+        background-size: 250%;
+    }
+}
